@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <TextView android:text="@string/quiz_question"
+    <TextView
+        android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp" />
@@ -23,4 +24,9 @@
             android:text="@string/false_button"
             android:id="@+id/false_button" />
     </LinearLayout>
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"/>
 </LinearLayout>
